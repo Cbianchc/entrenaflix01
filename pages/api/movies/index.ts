@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
-import prismadb from '@/lib/prismadb';
-import serverAuth from '@/lib/serverAuth';
+import prismadb from '@/libs/prismadb';
+import serverAuth from '@/libs/serverAuth';
 
 export default async function hadler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'GET') {

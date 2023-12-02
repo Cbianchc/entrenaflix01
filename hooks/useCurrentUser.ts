@@ -1,7 +1,7 @@
 import useSwr from 'swr';
 //esto es algo parecido a react query, no hace falta redux ni nada
 //lo que hace es guardar el cache para no cargar de nuevo
-import fetcher from '@/lib/fetcher';
+import fetcher from '@/libs/fetcher';
 
 const useCurrentUser = () => {
     const { data, error, isLoading, mutate } = useSwr('/api/current',  fetcher)
