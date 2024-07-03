@@ -29,8 +29,8 @@ const Billboard = () => {
                 src={data?.videoUrl}>
             </video>
             <div className="absolute top-[30%] md:top-[40%] ml-4 md:ml-16">
-                <p className="text-white text-1xl md:text-5xl h-full w-[50%] lg:text-6xl font-bold drop-shadow-xl"
-                >{data?.title}</p>
+                <p className="text-white text-xl md:text-5xl h-full w-[50%] lg:text-6xl font-bold drop-shadow-xl"
+                >Video del dia </p>
                 <p className="
                     text-white 
                     text-xs
@@ -42,7 +42,7 @@ const Billboard = () => {
                     lg:w-[40%] 
                     drop-shadow-xl
                 ">
-                    {data?.description}
+                    Este es un video de la base de datos aleatorio... por si no sabes que hacer 😉
                 </p>
                 <div className="flex flex-row items-center mt-3 md:mt-4 gap-3">
                     <PlayButton movieId={data?.id}/>

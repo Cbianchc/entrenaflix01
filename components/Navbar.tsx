@@ -55,8 +55,8 @@ const Navbar = () => {
               lg:flex
             ">
               <NavbarItem label="Rutinas" />
-              <NavbarItem label="Ejercicios" />
-              <NavbarItem label="Popular" />
+              <NavbarItem label="Estiramentos" />
+              <NavbarItem label="Juegos" />
               <NavbarItem label="Mi lista" />
               <NavbarItem label="Buscar" />
               </div>

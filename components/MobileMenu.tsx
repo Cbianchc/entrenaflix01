@@ -22,22 +22,16 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ visible }) => {
       ">
         <div className="flex flex-col gap-4">
         <div className="px-3 text-center text-white hover:underline">
-            Home
+            Rutinas 
           </div>
           <div className="px-3 text-center text-white hover:underline">
-            Series
+            Estiramentos
           </div>
           <div className="px-3 text-center text-white hover:underline">
-            Peliculas
-          </div>
-          <div className="px-3 text-center text-white hover:underline">
-            Nuevo & popular
+            Juegos
           </div>
           <div className="px-3 text-center text-white hover:underline">
             Mi lista
-          </div>
-          <div className="px-3 text-center text-white hover:underline">
-            Buscar por lenguaje
           </div>
         </div>
     </div>

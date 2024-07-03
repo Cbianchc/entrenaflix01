@@ -8,6 +8,9 @@ import useMovieList from '@/hooks/useMovieList';
 import InfoModal from '@/components/InfoModal';
 import useInfoModalStore from '@/hooks/useInfoModal';
 // import useFavorites from '@/hooks/useFavorites';
+import StreachingList from '@/components/StreachList';
+import useStreachList from '@/hooks/useStreachList';
+import JuegoList from '@/components/JuegoList';
 
 export async function getServerSideProps(context: NextPageContext) {
   const session = await getSession(context);
@@ -29,6 +32,7 @@ export default function Home() {
   const { data: user } = useCurrentUser();
 //user es el alias de data.
   const { data: movies = [] } = useMovieList();
+  const { data: streaching = [] } = useStreachList();
   //const { data: favorites = [] } = useFavorites();
   const { isOpen, closeModal } = useInfoModalStore();
 
@@ -40,8 +44,9 @@ export default function Home() {
       <Billboard />
       <div className='pb-40'>
         <MovieList title='Rutinas'data={movies} />
+        <StreachingList title='Estiramentos'data={movies} />
+        <JuegoList title='Juegos'data={movies} />
         {/* <MovieList title='Mi lista'data={favorites} /> */}
-        {/* <script src="https://player.vimeo.com/api/player.js"></script> */}
 
       </div>
     </>

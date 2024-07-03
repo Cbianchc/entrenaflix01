@@ -2,19 +2,20 @@ import React from "react";
 import { isEmpty } from "lodash";
 import MovieCard from "./MovieCard";
 
-interface MovieListProps {
+interface StreachingListProps {
     data: Record<string, any>[],
     title: string,
 }
 
-const MovieList: React.FC<MovieListProps> = ({ data, title }) => {
+const StreachingList: React.FC<StreachingListProps> = ({ data, title }) => {
     if (isEmpty(data)) {
         return null
     }
-    const rutinasFull = data.filter((movie) => movie.genre === "fullbody");
+    const streachingMovies = data.filter((movie) => movie.genre === "streaching");
+    //console.log(streachingMovies);
 
     return (
-        <div className="px-4 md:px-12 mt-4 space-y-3">
+        <div id="estiramientos" className="px-4 md:px-12 mt-4 space-y-3">
             <div>
                 <p className="
                     text-white 
@@ -26,8 +27,8 @@ const MovieList: React.FC<MovieListProps> = ({ data, title }) => {
                     {title}
                 </p>
                 <div className="grid grid-cols-4 gap-2">
-                    {rutinasFull.map((Movie) => (
-                        <MovieCard key={Movie.id} data={Movie}  />
+                    {streachingMovies.map((movie) => (
+                        <MovieCard key={movie.id} data={movie} />
                     ))}
                 </div>
             </div>
@@ -35,4 +36,4 @@ const MovieList: React.FC<MovieListProps> = ({ data, title }) => {
     )
 }
 
-export default MovieList;
+export default StreachingList;
