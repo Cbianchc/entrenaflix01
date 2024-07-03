@@ -3,6 +3,11 @@
 
 ##### (Creada con Next.js - TypeScript - Tailwind 😊)
 
+## Link to Proyect
+[EntrenaFlix - Versel deploy](https://entrenaflix01-6thk9ogel-ciro-bianchimanis-projects.vercel.app/auth)
+- USER: test@gmail.com
+- PAS: 123456
+
 ## Que hay dentro...
 
 - Una interfaz similar a Netflix 
@@ -10,14 +15,23 @@
 - Autenticacion con NextAuth, Google & Github Login
 - Full responsive
 - Cookie based authentication
-- API and Controllers creation
+- API and Controllers 
 - Efectos y animaciones
 
+## Screenshots
 
-## Link to Proyect
-[Nexflix Clone - Versel deploy](https://netfclone-simple.vercel.app/auth)
+![App Screenshot](https://i.ibb.co/Jq9LjWx/netflixentrena01.png)
 
-##### (May throw "no secure site" error on chrome)
+![App Screenshot](https://i.ibb.co/59q3mBL/netfl02.png)
+
+![App Screenshot](https://i.ibb.co/McbSDbT/netfl03.png)
+
+![App Screenshot](https://i.ibb.co/mXMMQ19/netfl04.png)
+
+![App Screenshot](https://i.ibb.co/vjxVDy0/netfl05.png)
+
+![App Screenshot](https://i.ibb.co/QCVRjF0/netfl06.png)
+
 
 ## 🔗 Links
 

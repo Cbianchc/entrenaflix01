@@ -161,7 +161,7 @@ const Auth = () => {
                   <span 
                     onClick={toggleVariant}
                     className="text-white ml-3 hover:underline cursor-pointer">
-                      {variant === 'login' ? 'Hacete una cuenta crack' : 'Ingresa tus datos'}
+                      {variant === 'login' ? 'Hacete una cuenta' : 'Ingresa tus datos'}
                   </span>
                 </p>
             </div>
