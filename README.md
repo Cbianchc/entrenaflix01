@@ -4,7 +4,7 @@
 ##### (Creada con Next.js - TypeScript - Tailwind 😊)
 
 ## Link to Proyect
-[EntrenaFlix - Versel deploy](https://entrenaflix01-6thk9ogel-ciro-bianchimanis-projects.vercel.app/auth)
+[EntrenaFlix - Versel deploy](https://entrenaflix01.vercel.app/)
 - USER: test@gmail.com
 - PAS: 123456
 
